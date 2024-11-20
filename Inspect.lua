@@ -640,8 +640,8 @@ do
 
 		elseif mainHandSlot > 0 and offHandSlot == 0 then
 			inspectData['ilvl'] = inspectData['ilvl'] + mainHandSlot
+			
 		end
-		
 		if item18lvl then
 			if item18lvl > item16lvl then
 				inspectData['ilvl'] = inspectData['ilvl'] - item16lvl
